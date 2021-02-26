@@ -1,0 +1,268 @@
+#include "warp.h"
+#include "core.h"
+#include "utils.h"
+
+using namespace Harp;
+
+unsigned globalWarpCount[4] = {0, 0, 0, 0};
+bool firstWarpInBarrier[4] = {true, true, true, true};
+
+Warp::Warp(Core *core, unsigned id, unsigned numThreads, unsigned numRegs)
+    : core_(core),
+      id_(id),
+      numThreads_(numThreads),
+      numRegs_(numRegs),
+      activeThreads_(0),
+      pc_(0),
+      spawned_(false),
+      inBarrier_(false),
+      totalInstr_(0) {
+  regFile_ = new RegFile(numThreads, numRegs);
+  predRegs_.resize(numThreads);
+}
+
+Warp::~Warp() { delete regFile_; }
+
+void Warp::bootEnable() {
+  activeThreads_ = 1;
+  spawned_ = true;
+}
+
+void Warp::step() {
+  // early exit if no thread is active
+  if (0 == activeThreads_) return;
+
+  // fetch next instruction
+  auto code = this->fetch();
+
+  // fetch next instruction
+  auto instr = this->decode(code);
+
+  // Update pc
+  pc_ += ADDR_SIZE;
+
+  // execute
+  this->execute(instr);
+
+  // Clean up.
+  delete instr;
+}
+
+word_t Warp::fetch() {
+  // fetch next instruction
+  auto fetched = core_->icache()->read(pc_, false);
+  return fetched.first;
+}
+
+Instruction *Warp::decode(word_t code) {
+  // decode instruction
+  auto instr = core_->decoder()->decode(code);
+  D(3, "0x" << std::hex << pc_ << ": " << *instr);
+  return instr;
+}
+
+void Warp::execute(Instruction *instr) {
+  D(3, "Begin instruction execute.");
+
+  auto nextActiveThreads = activeThreads_;
+  auto nextPc = pc_;
+  
+
+  for (unsigned t = 0; t < activeThreads_; ++t) {
+    if (isActive())
+      totalInstr_++;
+    // skip false-predicated instructions
+    if (instr->hasPredReg() && !predRegs_[t]) continue;
+
+    switch (instr->getOpcode()) {
+      case OP_NOP:
+        break;
+      // TODO:
+      case OP_ST: 
+        core_->mem_->write(regFile_->get(t, instr->getSrcReg(1)) + instr->getSrcImm(), regFile_->get(t, instr->getSrcReg(0)), 1);
+        break;
+      case OP_LD: 
+        regFile_->set(t, instr->getDestReg(), core_->mem_->read(regFile_->get(t, instr->getSrcReg(0)) + instr->getSrcImm(), 1));
+        break;
+      case OP_LDI: {
+        regFile_->set(t, instr->getDestReg(), instr->getSrcImm());
+        break;
+        }
+      case OP_ADDI: 
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) + instr->getSrcImm());
+        break;
+      case OP_SUBI: 
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) - instr->getSrcImm()); 
+        break;
+      case OP_MULI:          
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) * instr->getSrcImm()); 
+        break;
+      case OP_SHLI: 
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) << instr->getSrcImm());  
+        break; 
+      case OP_SHRI: 
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) >> instr->getSrcImm());   
+        break;
+      case OP_ANDI: 
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) & instr->getSrcImm());
+        break;
+      case OP_ORI: 
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) | instr->getSrcImm());
+        break;
+      case OP_XORI: 
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) ^ instr->getSrcImm());
+        break;  
+      case OP_ADD: 
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) + regFile_->get(t, instr->getSrcReg(1)));
+        break;
+      case OP_SUB: 
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) - regFile_->get(t, instr->getSrcReg(1)));
+        break;
+      case OP_MUL: 
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) * regFile_->get(t, instr->getSrcReg(1)));
+        break; 
+      case OP_SHL: 
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) << regFile_->get(t, instr->getSrcReg(1)));
+        break;
+      case OP_SHR: 
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) >> regFile_->get(t, instr->getSrcReg(1)));
+        break; 
+      case OP_AND: 
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) & regFile_->get(t, instr->getSrcReg(1)));
+        break;
+      case OP_OR: 
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) | regFile_->get(t, instr->getSrcReg(1)));
+        break;  
+      case OP_XOR: 
+        regFile_->set(t, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(0)) ^ regFile_->get(t, instr->getSrcReg(1)));
+        break;
+      case OP_NEG: 
+        regFile_->set(t, instr->getDestReg(), (-regFile_->get(t, instr->getSrcReg(0)) + 1));
+        break;
+      case OP_NOT: 
+        regFile_->set(t, instr->getDestReg(), (-regFile_->get(t, instr->getSrcReg(0))));
+        break;
+      case OP_CLONE: 
+        regFile_->clone(t, regFile_->get(t, instr->getSrcReg(0)));
+        break;
+      case OP_BAR: 
+      {
+        if(!justReleased_)
+        {
+          std::cout<<"\nTop\n";
+          word_t max_warps_barrier = regFile_->get(t, instr->getSrcReg(1));
+          word_t barrier_id_reg = regFile_->get(t, instr->getSrcReg(0));
+          if(max_warps_barrier > 4)
+            max_warps_barrier = 4;
+
+          if (!inBarrier_)
+          {
+            //totalInstr_++;
+            std::cout<<"\n"<<id_<<" of "<<max_warps_barrier<<"enters in "<<barrier_id_reg<<"\n";
+            inBarrier_ = true;
+            justReleased_ = false;
+            activeThreadsOld_ = activeThreads_;
+            nextActiveThreads = 0;
+            if(firstWarpInBarrier[barrier_id_reg])
+            {
+              globalWarpCount[barrier_id_reg] = 0;
+              firstWarpInBarrier[barrier_id_reg] = false;            
+            }
+            barrierId_ = barrier_id_reg;
+            globalWarpCount[barrier_id_reg]++;
+            //std::cout<<globalWarpCount[barrier_id_reg]<<" "<<max_warps_barrier<<"\n";
+            if(globalWarpCount[barrier_id_reg] == max_warps_barrier)
+            {
+              for(unsigned i=0; i<core_->totalWarps; ++i)
+              {
+                firstWarpInBarrier[barrier_id_reg] = true;
+                if((core_->warps_[i]->barrierId_ == barrier_id_reg) && (core_->warps_[i]->inBarrier_ == true))
+                {
+                  core_->warps_[i]->activeThreads_ = activeThreadsOld_;
+                  std::cout<<"\n"<<core_->warps_[i]->id_<<" of "<<max_warps_barrier<<"exits in "<<barrier_id_reg<<"\n"; 
+                  core_->warps_[i]->inBarrier_ = false;  
+                }
+                justReleased_ = true;
+              }
+            }
+          }
+        }
+        break;
+      }
+      case OP_WSPAWN:
+        for (auto warp : core_->warps()) {
+          if (!warp->spawned_) {
+            warp->pc_ = regFile_->get(t, instr->getSrcReg(0));
+            warp->regFile_->set(0, instr->getDestReg(), regFile_->get(t, instr->getSrcReg(1)));
+            warp->activeThreads_ = 1;
+            warp->spawned_ = true;
+            break;
+          }
+        }
+        break;
+      case OP_JMPI:
+        if (0 == t) nextPc = pc_ + instr->getSrcImm();
+        break;
+      case OP_JALI:
+        regFile_->set(t, instr->getDestReg(), pc_);
+        if (0 == t) nextPc = pc_ + instr->getSrcImm();
+        break;
+      case OP_JALR:
+        regFile_->set(t, instr->getDestReg(), pc_);
+        if (0 == t) nextPc = regFile_->get(t, instr->getSrcReg(0));
+        break;
+      case OP_JMPR:
+        if (0 == t) nextPc = regFile_->get(t, instr->getSrcReg(0));
+        break;
+      case OP_JALIS:
+        nextActiveThreads = regFile_->get(t, instr->getSrcReg(0));
+        regFile_->set(t, instr->getDestReg(), pc_);
+        if (0 == t) nextPc = pc_ + instr->getSrcImm();
+        break;
+      case OP_JALRS:
+        nextActiveThreads = regFile_->get(t, instr->getSrcReg(0));
+        regFile_->set(t, instr->getDestReg(), pc_);
+        if (0 == t) nextPc = regFile_->get(t, instr->getSrcReg(1));
+        break;
+      case OP_JMPRT:
+        nextActiveThreads = 1;
+        if (0 == t) nextPc = regFile_->get(t, instr->getSrcReg(0));
+        break;
+      case OP_RTOP:
+        predRegs_[t] = regFile_->get(t, instr->getSrcReg(0));
+        break;
+      case OP_ISZERO:
+        predRegs_[t] = !regFile_->get(t, instr->getSrcReg(0));
+        break;
+      case OP_ISNEG:
+        predRegs_[t] = regFile_->get(t, instr->getSrcReg(0)) & 0x80000000;
+        break;
+      case OP_NOTP:
+        predRegs_[t] = !predRegs_[t];
+        break;
+      case OP_HALT:
+        nextActiveThreads = 0;
+        break;
+      default:
+        std::cout << "ERROR: Unsupported instruction: " << *instr << "\n";
+        exit(EXIT_FAILURE);
+    }
+  }
+
+  if (nextActiveThreads > numThreads_) {
+    std::cerr << "Error: attempt to spawn " << nextActiveThreads << " threads. "
+              << numThreads_ << " available.\n";
+    abort();
+  }
+
+  activeThreads_ = nextActiveThreads;
+  pc_ = nextPc;
+
+  D(3, "End instruction execute.");
+}
+
+uint64_t Warp::getInstructionCount() const {
+  // TODO:
+
+  return totalInstr_;
+}

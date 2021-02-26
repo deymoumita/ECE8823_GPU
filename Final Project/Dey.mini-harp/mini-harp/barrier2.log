@@ -1,0 +1,3622 @@
+DEBUG mem.cpp:36: RAM read, addr=0x0
+DEBUG decode.cpp:91: Decoded 0x4a800088 into: ldi %r2 #0x88;
+
+DEBUG warp.cpp:96: 0x0: ldi %r2 #0x88;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x4
+DEBUG decode.cpp:91: Decoded 0x4a000000 into: ldi %r0 #0x0;
+
+DEBUG warp.cpp:96: 0x4: ldi %r0 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x8
+DEBUG decode.cpp:91: Decoded 0x4a400001 into: ldi %r1 #0x1;
+
+DEBUG warp.cpp:96: 0x8: ldi %r1 #0x1;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xc
+DEBUG decode.cpp:91: Decoded 0x74100000 into: wspawn %r0 %r2 %r0 ;
+
+DEBUG warp.cpp:96: 0xc: wspawn %r0 %r2 %r0 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x88
+DEBUG decode.cpp:91: Decoded 0x4a400001 into: ldi %r1 #0x1;
+
+DEBUG warp.cpp:96: 0x88: ldi %r1 #0x1;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x10
+DEBUG decode.cpp:91: Decoded 0x74110000 into: wspawn %r0 %r2 %r1 ;
+
+DEBUG warp.cpp:96: 0x10: wspawn %r0 %r2 %r1 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x8c
+DEBUG decode.cpp:91: Decoded 0x3e400000 into: clone %r1 ;
+
+DEBUG warp.cpp:96: 0x8c: clone %r1 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x88
+DEBUG decode.cpp:91: Decoded 0x4a400001 into: ldi %r1 #0x1;
+
+DEBUG warp.cpp:96: 0x88: ldi %r1 #0x1;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x14
+DEBUG decode.cpp:91: Decoded 0x4a000080 into: ldi %r0 #0x80;
+
+DEBUG warp.cpp:96: 0x14: ldi %r0 #0x80;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x90
+DEBUG decode.cpp:91: Decoded 0x4a400000 into: ldi %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x90: ldi %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x8c
+DEBUG decode.cpp:91: Decoded 0x3e400000 into: clone %r1 ;
+
+DEBUG warp.cpp:96: 0x8c: clone %r1 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x18
+DEBUG decode.cpp:91: Decoded 0x4a4000e4 into: ldi %r1 #0xe4;
+
+DEBUG warp.cpp:96: 0x18: ldi %r1 #0xe4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x94
+DEBUG decode.cpp:91: Decoded 0x4a800002 into: ldi %r2 #0x2;
+
+DEBUG warp.cpp:96: 0x94: ldi %r2 #0x2;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x90
+DEBUG decode.cpp:91: Decoded 0x4a400000 into: ldi %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x90: ldi %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1c
+DEBUG decode.cpp:91: Decoded 0x48080000 into: st %r0 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1c: st %r0 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG mem.cpp:51: RAM write, addr=0xe4
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x98
+DEBUG decode.cpp:91: Decoded 0x41d00004 into: jalis %r7 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x98: jalis %r7 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x94
+DEBUG decode.cpp:91: Decoded 0x4a800002 into: ldi %r2 #0x2;
+
+DEBUG warp.cpp:96: 0x94: ldi %r2 #0x2;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x20
+DEBUG decode.cpp:91: Decoded 0x4a000002 into: ldi %r0 #0x2;
+
+DEBUG warp.cpp:96: 0x20: ldi %r0 #0x2;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xa0
+DEBUG decode.cpp:91: Decoded 0x25400000 into: ori %r5 %r0 #0x0;
+
+DEBUG warp.cpp:96: 0xa0: ori %r5 %r0 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x98
+DEBUG decode.cpp:91: Decoded 0x41d00004 into: jalis %r7 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x98: jalis %r7 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x24
+DEBUG decode.cpp:91: Decoded 0x4a400003 into: ldi %r1 #0x3;
+
+DEBUG warp.cpp:96: 0x24: ldi %r1 #0x3;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xa4
+DEBUG decode.cpp:91: Decoded 0x25880000 into: ori %r6 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0xa4: ori %r6 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xa0
+DEBUG decode.cpp:91: Decoded 0x25400000 into: ori %r5 %r0 #0x0;
+
+DEBUG warp.cpp:96: 0xa0: ori %r5 %r0 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x28
+DEBUG decode.cpp:91: Decoded 0x7a080000 into: bar %r0 %r1 ;
+
+DEBUG warp.cpp:96: 0x28: bar %r0 %r1 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xa8
+DEBUG decode.cpp:91: Decoded 0x4a000002 into: ldi %r0 #0x2;
+
+DEBUG warp.cpp:96: 0xa8: ldi %r0 #0x2;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xa4
+DEBUG decode.cpp:91: Decoded 0x25880000 into: ori %r6 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0xa4: ori %r6 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x2c
+DEBUG decode.cpp:91: Decoded 0x4a000000 into: ldi %r0 #0x0;
+
+DEBUG warp.cpp:96: 0x2c: ldi %r0 #0x0;
+DEBUG mem.cpp:36: RAM read, addr=0xac
+DEBUG decode.cpp:91: Decoded 0x4a400003 into: ldi %r1 #0x3;
+
+DEBUG warp.cpp:96: 0xac: ldi %r1 #0x3;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xa8
+DEBUG decode.cpp:91: Decoded 0x4a000002 into: ldi %r0 #0x2;
+
+DEBUG warp.cpp:96: 0xa8: ldi %r0 #0x2;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x2c
+DEBUG decode.cpp:91: Decoded 0x4a000000 into: ldi %r0 #0x0;
+
+DEBUG warp.cpp:96: 0x2c: ldi %r0 #0x0;
+DEBUG mem.cpp:36: RAM read, addr=0xb0
+DEBUG decode.cpp:91: Decoded 0x7a080000 into: bar %r0 %r1 ;
+
+DEBUG warp.cpp:96: 0xb0: bar %r0 %r1 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xac
+DEBUG decode.cpp:91: Decoded 0x4a400003 into: ldi %r1 #0x3;
+
+DEBUG warp.cpp:96: 0xac: ldi %r1 #0x3;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x2c
+DEBUG decode.cpp:91: Decoded 0x4a000000 into: ldi %r0 #0x0;
+
+DEBUG warp.cpp:96: 0x2c: ldi %r0 #0x0;
+DEBUG mem.cpp:36: RAM read, addr=0xb4
+DEBUG decode.cpp:91: Decoded 0x4a0000e4 into: ldi %r0 #0xe4;
+
+DEBUG warp.cpp:96: 0xb4: ldi %r0 #0xe4;
+DEBUG mem.cpp:36: RAM read, addr=0xb0
+DEBUG decode.cpp:91: Decoded 0x7a080000 into: bar %r0 %r1 ;
+
+DEBUG warp.cpp:96: 0xb0: bar %r0 %r1 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x2c
+DEBUG decode.cpp:91: Decoded 0x4a000000 into: ldi %r0 #0x0;
+
+DEBUG warp.cpp:96: 0x2c: ldi %r0 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xb4
+DEBUG decode.cpp:91: Decoded 0x4a0000e4 into: ldi %r0 #0xe4;
+
+DEBUG warp.cpp:96: 0xb4: ldi %r0 #0xe4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xb4
+DEBUG decode.cpp:91: Decoded 0x4a0000e4 into: ldi %r0 #0xe4;
+
+DEBUG warp.cpp:96: 0xb4: ldi %r0 #0xe4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x30
+DEBUG decode.cpp:91: Decoded 0x4a400002 into: ldi %r1 #0x2;
+
+DEBUG warp.cpp:96: 0x30: ldi %r1 #0x2;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xb8
+DEBUG decode.cpp:91: Decoded 0x46400000 into: ld %r1 %r0 #0x0;
+
+DEBUG warp.cpp:96: 0xb8: ld %r1 %r0 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe4
+DEBUG mem.cpp:36: RAM read, addr=0xe4
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xb8
+DEBUG decode.cpp:91: Decoded 0x46400000 into: ld %r1 %r0 #0x0;
+
+DEBUG warp.cpp:96: 0xb8: ld %r1 %r0 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe4
+DEBUG mem.cpp:36: RAM read, addr=0xe4
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x34
+DEBUG decode.cpp:91: Decoded 0x7a080000 into: bar %r0 %r1 ;
+
+DEBUG warp.cpp:96: 0x34: bar %r0 %r1 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xbc
+DEBUG decode.cpp:91: Decoded 0x2ca80002 into: muli %r2 %r5 #0x2;
+
+DEBUG warp.cpp:96: 0xbc: muli %r2 %r5 #0x2;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xbc
+DEBUG decode.cpp:91: Decoded 0x2ca80002 into: muli %r2 %r5 #0x2;
+
+DEBUG warp.cpp:96: 0xbc: muli %r2 %r5 #0x2;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x38
+DEBUG decode.cpp:91: Decoded 0x4a4000e8 into: ldi %r1 #0xe8;
+
+DEBUG warp.cpp:96: 0x38: ldi %r1 #0xe8;
+DEBUG mem.cpp:36: RAM read, addr=0xc0
+DEBUG decode.cpp:91: Decoded 0x14960000 into: add %r2 %r2 %r6 ;
+
+DEBUG warp.cpp:96: 0xc0: add %r2 %r2 %r6 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xc0
+DEBUG decode.cpp:91: Decoded 0x14960000 into: add %r2 %r2 %r6 ;
+
+DEBUG warp.cpp:96: 0xc0: add %r2 %r2 %r6 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x38
+DEBUG decode.cpp:91: Decoded 0x4a4000e8 into: ldi %r1 #0xe8;
+
+DEBUG warp.cpp:96: 0x38: ldi %r1 #0xe8;
+DEBUG mem.cpp:36: RAM read, addr=0xc4
+DEBUG decode.cpp:91: Decoded 0x144a0000 into: add %r1 %r1 %r2 ;
+
+DEBUG warp.cpp:96: 0xc4: add %r1 %r1 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xc4
+DEBUG decode.cpp:91: Decoded 0x144a0000 into: add %r1 %r1 %r2 ;
+
+DEBUG warp.cpp:96: 0xc4: add %r1 %r1 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x38
+DEBUG decode.cpp:91: Decoded 0x4a4000e8 into: ldi %r1 #0xe8;
+
+DEBUG warp.cpp:96: 0x38: ldi %r1 #0xe8;
+DEBUG mem.cpp:36: RAM read, addr=0xc8
+DEBUG decode.cpp:91: Decoded 0x4a0000e8 into: ldi %r0 #0xe8;
+
+DEBUG warp.cpp:96: 0xc8: ldi %r0 #0xe8;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xc8
+DEBUG decode.cpp:91: Decoded 0x4a0000e8 into: ldi %r0 #0xe8;
+
+DEBUG warp.cpp:96: 0xc8: ldi %r0 #0xe8;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x38
+DEBUG decode.cpp:91: Decoded 0x4a4000e8 into: ldi %r1 #0xe8;
+
+DEBUG warp.cpp:96: 0x38: ldi %r1 #0xe8;
+DEBUG mem.cpp:36: RAM read, addr=0xcc
+DEBUG decode.cpp:91: Decoded 0x2c900004 into: muli %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0xcc: muli %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xcc
+DEBUG decode.cpp:91: Decoded 0x2c900004 into: muli %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0xcc: muli %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x38
+DEBUG decode.cpp:91: Decoded 0x4a4000e8 into: ldi %r1 #0xe8;
+
+DEBUG warp.cpp:96: 0x38: ldi %r1 #0xe8;
+DEBUG mem.cpp:36: RAM read, addr=0xd0
+DEBUG decode.cpp:91: Decoded 0x14020000 into: add %r0 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0xd0: add %r0 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xd0
+DEBUG decode.cpp:91: Decoded 0x14020000 into: add %r0 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0xd0: add %r0 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x38
+DEBUG decode.cpp:91: Decoded 0x4a4000e8 into: ldi %r1 #0xe8;
+
+DEBUG warp.cpp:96: 0x38: ldi %r1 #0xe8;
+DEBUG mem.cpp:36: RAM read, addr=0xd4
+DEBUG decode.cpp:91: Decoded 0x48400000 into: st %r1 %r0 #0x0;
+
+DEBUG warp.cpp:96: 0xd4: st %r1 %r0 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG mem.cpp:51: RAM write, addr=0xe8
+DEBUG mem.cpp:51: RAM write, addr=0xec
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xd4
+DEBUG decode.cpp:91: Decoded 0x48400000 into: st %r1 %r0 #0x0;
+
+DEBUG warp.cpp:96: 0xd4: st %r1 %r0 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG mem.cpp:51: RAM write, addr=0xf0
+DEBUG mem.cpp:51: RAM write, addr=0xf4
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x38
+DEBUG decode.cpp:91: Decoded 0x4a4000e8 into: ldi %r1 #0xe8;
+
+DEBUG warp.cpp:96: 0x38: ldi %r1 #0xe8;
+DEBUG mem.cpp:36: RAM read, addr=0xd8
+DEBUG decode.cpp:91: Decoded 0x4a000002 into: ldi %r0 #0x2;
+
+DEBUG warp.cpp:96: 0xd8: ldi %r0 #0x2;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xd8
+DEBUG decode.cpp:91: Decoded 0x4a000002 into: ldi %r0 #0x2;
+
+DEBUG warp.cpp:96: 0xd8: ldi %r0 #0x2;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x38
+DEBUG decode.cpp:91: Decoded 0x4a4000e8 into: ldi %r1 #0xe8;
+
+DEBUG warp.cpp:96: 0x38: ldi %r1 #0xe8;
+DEBUG mem.cpp:36: RAM read, addr=0xdc
+DEBUG decode.cpp:91: Decoded 0x7b400000 into: bar %r5 %r0 ;
+
+DEBUG warp.cpp:96: 0xdc: bar %r5 %r0 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xdc
+DEBUG decode.cpp:91: Decoded 0x7b400000 into: bar %r5 %r0 ;
+
+DEBUG warp.cpp:96: 0xdc: bar %r5 %r0 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x38
+DEBUG decode.cpp:91: Decoded 0x4a4000e8 into: ldi %r1 #0xe8;
+
+DEBUG warp.cpp:96: 0x38: ldi %r1 #0xe8;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x3c
+DEBUG decode.cpp:91: Decoded 0x46080000 into: ld %r0 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x3c: ld %r0 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe8
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x9c
+DEBUG decode.cpp:91: Decoded 0x5a000000 into: halt ;
+
+DEBUG warp.cpp:96: 0x9c: halt ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x40
+DEBUG decode.cpp:91: Decoded 0x37c00fbc into: jali %r7 #0xfbc;
+
+DEBUG warp.cpp:96: 0x40: jali %r7 #0xfbc;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1000
+DEBUG decode.cpp:91: Decoded 0x4a5ffffc into: ldi %r1 #0x1ffffc;
+
+DEBUG warp.cpp:96: 0x1000: ldi %r1 #0x1ffffc;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1004
+DEBUG decode.cpp:91: Decoded 0x4a800020 into: ldi %r2 #0x20;
+
+DEBUG warp.cpp:96: 0x1004: ldi %r2 #0x20;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1034
+DEBUG decode.cpp:91: Decoded 0x3dc00000 into: jmpr %r7 ;
+
+DEBUG warp.cpp:96: 0x1034: jmpr %r7 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x44
+DEBUG decode.cpp:91: Decoded 0x37c01014 into: jali %r7 #0x1014;
+
+DEBUG warp.cpp:96: 0x44: jali %r7 #0x1014;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x105c
+DEBUG decode.cpp:91: Decoded 0x4a5ffffc into: ldi %r1 #0x1ffffc;
+
+DEBUG warp.cpp:96: 0x105c: ldi %r1 #0x1ffffc;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1060
+DEBUG decode.cpp:91: Decoded 0x4a80000a into: ldi %r2 #0xa;
+
+DEBUG warp.cpp:96: 0x1060: ldi %r2 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1064
+DEBUG decode.cpp:91: Decoded 0x48880000 into: st %r2 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1064: st %r2 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1068
+DEBUG decode.cpp:91: Decoded 0x3dc00000 into: jmpr %r7 ;
+
+DEBUG warp.cpp:96: 0x1068: jmpr %r7 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x48
+DEBUG decode.cpp:91: Decoded 0x4a4000e8 into: ldi %r1 #0xe8;
+
+DEBUG warp.cpp:96: 0x48: ldi %r1 #0xe8;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x4c
+DEBUG decode.cpp:91: Decoded 0x46080004 into: ld %r0 %r1 #0x4;
+
+DEBUG warp.cpp:96: 0x4c: ld %r0 %r1 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xec
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x50
+DEBUG decode.cpp:91: Decoded 0x37c00fac into: jali %r7 #0xfac;
+
+DEBUG warp.cpp:96: 0x50: jali %r7 #0xfac;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1000
+DEBUG decode.cpp:91: Decoded 0x4a5ffffc into: ldi %r1 #0x1ffffc;
+
+DEBUG warp.cpp:96: 0x1000: ldi %r1 #0x1ffffc;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1004
+DEBUG decode.cpp:91: Decoded 0x4a800020 into: ldi %r2 #0x20;
+
+DEBUG warp.cpp:96: 0x1004: ldi %r2 #0x20;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1034
+DEBUG decode.cpp:91: Decoded 0x3dc00000 into: jmpr %r7 ;
+
+DEBUG warp.cpp:96: 0x1034: jmpr %r7 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x54
+DEBUG decode.cpp:91: Decoded 0x37c01004 into: jali %r7 #0x1004;
+
+DEBUG warp.cpp:96: 0x54: jali %r7 #0x1004;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x105c
+DEBUG decode.cpp:91: Decoded 0x4a5ffffc into: ldi %r1 #0x1ffffc;
+
+DEBUG warp.cpp:96: 0x105c: ldi %r1 #0x1ffffc;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1060
+DEBUG decode.cpp:91: Decoded 0x4a80000a into: ldi %r2 #0xa;
+
+DEBUG warp.cpp:96: 0x1060: ldi %r2 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1064
+DEBUG decode.cpp:91: Decoded 0x48880000 into: st %r2 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1064: st %r2 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x1068
+DEBUG decode.cpp:91: Decoded 0x3dc00000 into: jmpr %r7 ;
+
+DEBUG warp.cpp:96: 0x1068: jmpr %r7 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x58
+DEBUG decode.cpp:91: Decoded 0x4a000001 into: ldi %r0 #0x1;
+
+DEBUG warp.cpp:96: 0x58: ldi %r0 #0x1;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x5c
+DEBUG decode.cpp:91: Decoded 0x4a400002 into: ldi %r1 #0x2;
+
+DEBUG warp.cpp:96: 0x5c: ldi %r1 #0x2;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG mem.cpp:36: RAM read, addr=0x60
+DEBUG decode.cpp:91: Decoded 0x7a080000 into: bar %r0 %r1 ;
+
+DEBUG warp.cpp:96: 0x60: bar %r0 %r1 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xe0
+DEBUG decode.cpp:91: Decoded 0x45c00000 into: jmprt %r7 ;
+
+DEBUG warp.cpp:96: 0xe0: jmprt %r7 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x64
+DEBUG decode.cpp:91: Decoded 0x4a4000e8 into: ldi %r1 #0xe8;
+
+DEBUG warp.cpp:96: 0x64: ldi %r1 #0xe8;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x9c
+DEBUG decode.cpp:91: Decoded 0x5a000000 into: halt ;
+
+DEBUG warp.cpp:96: 0x9c: halt ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x68
+DEBUG decode.cpp:91: Decoded 0x46080008 into: ld %r0 %r1 #0x8;
+
+DEBUG warp.cpp:96: 0x68: ld %r0 %r1 #0x8;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xf0
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x6c
+DEBUG decode.cpp:91: Decoded 0x37c00f90 into: jali %r7 #0xf90;
+
+DEBUG warp.cpp:96: 0x6c: jali %r7 #0xf90;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1000
+DEBUG decode.cpp:91: Decoded 0x4a5ffffc into: ldi %r1 #0x1ffffc;
+
+DEBUG warp.cpp:96: 0x1000: ldi %r1 #0x1ffffc;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1004
+DEBUG decode.cpp:91: Decoded 0x4a800020 into: ldi %r2 #0x20;
+
+DEBUG warp.cpp:96: 0x1004: ldi %r2 #0x20;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1034
+DEBUG decode.cpp:91: Decoded 0x3dc00000 into: jmpr %r7 ;
+
+DEBUG warp.cpp:96: 0x1034: jmpr %r7 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x70
+DEBUG decode.cpp:91: Decoded 0x37c00fe8 into: jali %r7 #0xfe8;
+
+DEBUG warp.cpp:96: 0x70: jali %r7 #0xfe8;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x105c
+DEBUG decode.cpp:91: Decoded 0x4a5ffffc into: ldi %r1 #0x1ffffc;
+
+DEBUG warp.cpp:96: 0x105c: ldi %r1 #0x1ffffc;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1060
+DEBUG decode.cpp:91: Decoded 0x4a80000a into: ldi %r2 #0xa;
+
+DEBUG warp.cpp:96: 0x1060: ldi %r2 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1064
+DEBUG decode.cpp:91: Decoded 0x48880000 into: st %r2 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1064: st %r2 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1068
+DEBUG decode.cpp:91: Decoded 0x3dc00000 into: jmpr %r7 ;
+
+DEBUG warp.cpp:96: 0x1068: jmpr %r7 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x74
+DEBUG decode.cpp:91: Decoded 0x4a4000e8 into: ldi %r1 #0xe8;
+
+DEBUG warp.cpp:96: 0x74: ldi %r1 #0xe8;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x78
+DEBUG decode.cpp:91: Decoded 0x4608000c into: ld %r0 %r1 #0xc;
+
+DEBUG warp.cpp:96: 0x78: ld %r0 %r1 #0xc;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0xf4
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x7c
+DEBUG decode.cpp:91: Decoded 0x37c00f80 into: jali %r7 #0xf80;
+
+DEBUG warp.cpp:96: 0x7c: jali %r7 #0xf80;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1000
+DEBUG decode.cpp:91: Decoded 0x4a5ffffc into: ldi %r1 #0x1ffffc;
+
+DEBUG warp.cpp:96: 0x1000: ldi %r1 #0x1ffffc;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1004
+DEBUG decode.cpp:91: Decoded 0x4a800020 into: ldi %r2 #0x20;
+
+DEBUG warp.cpp:96: 0x1004: ldi %r2 #0x20;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1008
+DEBUG decode.cpp:91: Decoded 0x2a900004 into: subi %r2 %r2 #0x4;
+
+DEBUG warp.cpp:96: 0x1008: subi %r2 %r2 #0x4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x100c
+DEBUG decode.cpp:91: Decoded 0x20c20000 into: shr %r3 %r0 %r2 ;
+
+DEBUG warp.cpp:96: 0x100c: shr %r3 %r0 %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1010
+DEBUG decode.cpp:91: Decoded 0x22d8000f into: andi %r3 %r3 #0xf;
+
+DEBUG warp.cpp:96: 0x1010: andi %r3 %r3 #0xf;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1014
+DEBUG decode.cpp:91: Decoded 0x2b18000a into: subi %r4 %r3 #0xa;
+
+DEBUG warp.cpp:96: 0x1014: subi %r4 %r3 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1018
+DEBUG decode.cpp:91: Decoded 0x56200000 into: isneg %r4 ;
+
+DEBUG warp.cpp:96: 0x1018: isneg %r4 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x101c
+DEBUG decode.cpp:91: Decoded 0xa8d80030 into: @p0 ? addi %r3 %r3 #0x30;
+
+DEBUG warp.cpp:96: 0x101c: @p0 ? addi %r3 %r3 #0x30;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1020
+DEBUG decode.cpp:91: Decoded 0x54000000 into: notp ;
+
+DEBUG warp.cpp:96: 0x1020: notp ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1024
+DEBUG decode.cpp:91: Decoded 0xa8e00061 into: @p0 ? addi %r3 %r4 #0x61;
+
+DEBUG warp.cpp:96: 0x1024: @p0 ? addi %r3 %r4 #0x61;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1028
+DEBUG decode.cpp:91: Decoded 0x48c80000 into: st %r3 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1028: st %r3 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x102c
+DEBUG decode.cpp:91: Decoded 0x4c100000 into: rtop %r2 ;
+
+DEBUG warp.cpp:96: 0x102c: rtop %r2 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1030
+DEBUG decode.cpp:91: Decoded 0xbbffffd4 into: @p0 ? jmpi #0xffffffd4;
+
+DEBUG warp.cpp:96: 0x1030: @p0 ? jmpi #0xffffffd4;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1034
+DEBUG decode.cpp:91: Decoded 0x3dc00000 into: jmpr %r7 ;
+
+DEBUG warp.cpp:96: 0x1034: jmpr %r7 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x80
+DEBUG decode.cpp:91: Decoded 0x37c00fd8 into: jali %r7 #0xfd8;
+
+DEBUG warp.cpp:96: 0x80: jali %r7 #0xfd8;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x105c
+DEBUG decode.cpp:91: Decoded 0x4a5ffffc into: ldi %r1 #0x1ffffc;
+
+DEBUG warp.cpp:96: 0x105c: ldi %r1 #0x1ffffc;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1060
+DEBUG decode.cpp:91: Decoded 0x4a80000a into: ldi %r2 #0xa;
+
+DEBUG warp.cpp:96: 0x1060: ldi %r2 #0xa;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1064
+DEBUG decode.cpp:91: Decoded 0x48880000 into: st %r2 %r1 #0x0;
+
+DEBUG warp.cpp:96: 0x1064: st %r2 %r1 #0x0;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x1068
+DEBUG decode.cpp:91: Decoded 0x3dc00000 into: jmpr %r7 ;
+
+DEBUG warp.cpp:96: 0x1068: jmpr %r7 ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG mem.cpp:36: RAM read, addr=0x84
+DEBUG decode.cpp:91: Decoded 0x5a000000 into: halt ;
+
+DEBUG warp.cpp:96: 0x84: halt ;
+DEBUG warp.cpp:101: Begin instruction execute.
+DEBUG warp.cpp:459: End instruction execute.
+DEBUG main.cpp:68: Done.
